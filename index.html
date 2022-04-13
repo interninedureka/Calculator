@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Calculator</title>
+
+  <!-- favicon -->
+  <link rel="shortcut icon" href="calculator.ico">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <script src="https://kit.fontawesome.com/6440e9e64a.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+
+  <!-- Title -->
+  <div class="title-div">
+    <h1 class="title">Calculator</h1>
+  </div>
+
+  <!-- Calculator -->
+  <div class="calculator-div">
+    <div class="calculator-img-div">
+      <div class="calculator-main-div">
+        <div class="calculator-sub-div">
+          <div class="calculator-input-div">
+            <input class="calculator-input" id="display" type="text" name="display" placeholder="Calculate">
+          </div>
+          <div class="calculator-num-pad-div">
+            <div class="calculator-num-pad-1">
+
+              <!-- Clear -->
+              <button onclick="allclear()" type="button" name="clear" class="num-symbol clear btn">AC</button>
+
+              <!-- Backspace -->
+              <button onclick="backspace()" type="button" name="backspace" class="num-symbol backspace btn"><i class="fa-solid fa-delete-left"></i></button>
+
+              <!-- Percentage -->
+              <button onclick="numbers('%')" type="button" name="percentage" class="num-symbol percentage btn"><i class="fa-solid fa-percent"></i></button>
+
+              <!-- Divide -->
+              <button onclick="numbers('/')" type="button" name="divide" class="num-symbol divide btn"><i class="fa-solid fa-divide"></i></button>
+            </div>
+            <div class="calculator-num-pad-2">
+
+              <!-- Numbers -->
+              <button onclick="numbers(7)" type="button" name="num-7" class="num-7 btn">7</button>
+              <button onclick="numbers(8)" type="button" name="num-8" class="num-8 btn">8</button>
+              <button onclick="numbers(9)" type="button" name="num-9" class="num-9 btn">9</button>
+
+              <!-- Multiply -->
+              <button onclick="numbers('*')" type="button" name="multiply" class="num-symbol multiply btn"><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="calculator-num-pad-3">
+
+              <!-- Numbers -->
+              <button onclick="numbers(4)" type="button" name="num-4" class="num-4 btn">4</button>
+              <button onclick="numbers(5)" type="button" name="num-5" class="num-5 btn">5</button>
+              <button onclick="numbers(6)" type="button" name="num-6" class="num-6 btn">6</button>
+
+              <!-- Subtract -->
+              <button onclick="numbers('-')" type="button" name="subtract" class="num-symbol subtract btn"><i class="fa-solid fa-minus"></i></button>
+            </div>
+            <div class="calculator-num-pad-4">
+
+              <!-- Numbers -->
+              <button onclick="numbers(1)" type="button" name="num-1" class="num-1 btn">1</button>
+              <button onclick="numbers(2)" type="button" name="num-2" class="num-2 btn">2</button>
+              <button onclick="numbers(3)" type="button" name="num-3" class="num-3 btn">3</button>
+
+              <!-- Addition -->
+              <button onclick="numbers('+')" type="button" name="addition" class="num-symbol addition btn"><i class="fa-solid fa-plus"></i></button>
+            </div>
+            <div class="calculator-num-pad-5">
+
+              <!-- Numbers -->
+              <button onclick="numbers(0)" type="button" name="num-0" class="num-0 btn">0</button>
+
+              <!-- Dot -->
+              <button onclick="numbers('.')" type="button" name="dot" class="dot btn">.</button>
+
+              <!-- Equals -->
+              <button onclick="equals()" type="button" name="is-equals-to" class="num-symbol is-equals-to btn"><i class="fa-solid fa-equals"></i></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
