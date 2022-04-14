@@ -132,3 +132,410 @@ i {
   border-radius: 0 0 0 21px;
   width: 49.6%;
 }
+
+@media (max-width: 1196px) {
+  .calculator-img-div {
+    height: 440px;
+  }
+
+  .calculator-main-div {
+    height: 440px;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 24.3%;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 24.3%;
+  }
+}
+
+@media (max-width: 1064px) {
+  .calculator-img-div {
+    height: 430px;
+  }
+
+  .calculator-main-div {
+    height: 430px;
+  }
+
+  .num-0 {
+    border-radius: 0 0 0 21px;
+    width: 49%;
+  }
+}
+
+@media (max-width: 1026px) {
+  .calculator-img-div {
+    height: 420px;
+  }
+
+  .calculator-main-div {
+    height: 420px;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 24.2%;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 24.2%;
+  }
+}
+
+@media (max-width: 902px) {
+  .calculator-img-div {
+    height: 400px;
+  }
+
+  .calculator-main-div {
+    height: 400px;
+  }
+
+  button {
+    background-color: #FAFDD6;
+    border: none;
+    font-size: 2.8rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  i {
+    font-size: 2.8rem;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 24.1%;
+  }
+
+  .is-equals-to {
+    border-radius: 0 0 32px 0;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 24.1%;
+  }
+}
+
+@media (max-width: 805px) {
+  .calculator-img-div {
+    height: 390px;
+  }
+
+  .calculator-main-div {
+    height: 390px;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 24%;
+  }
+
+  .is-equals-to {
+    border-radius: 0 0 32px 0;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 24%;
+  }
+}
+
+@media (max-width: 725px) {
+  .calculator-img-div {
+    height: 360px;
+  }
+
+  .calculator-main-div {
+    height: 360px;
+  }
+
+  button {
+    background-color: #FAFDD6;
+    border: none;
+    font-size: 2.6rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  i {
+    font-size: 2.6rem;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 23.9%;
+  }
+
+  .is-equals-to {
+    border-radius: 0 0 30px 0;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 23.9%;
+  }
+}
+
+@media (max-width: 658px) {
+  .calculator-img-div {
+    height: 350px;
+  }
+
+  .calculator-main-div {
+    height: 350px;
+  }
+
+  button {
+    background-color: #FAFDD6;
+    border: none;
+    font-size: 2.5rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  i {
+    font-size: 2.5rem;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 23.8%;
+  }
+
+  .is-equals-to {
+    border-radius: 0 0 30px 0;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 23.8%;
+  }
+}
+
+@media (max-width: 605px) {
+  .calculator-img-div {
+    height: 340px;
+  }
+
+  .calculator-main-div {
+    height: 340px;
+  }
+
+  button {
+    background-color: #FAFDD6;
+    border: none;
+    font-size: 2.4rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  i {
+    font-size: 2.4rem;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 23.7%;
+  }
+
+  .is-equals-to {
+    border-radius: 0 0 30px 0;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 23.7%;
+  }
+}
+
+@media (max-width: 560px) {
+  .calculator-img-div {
+    height: 320px;
+  }
+
+  .calculator-main-div {
+    height: 320px;
+  }
+
+  button {
+    background-color: #FAFDD6;
+    border: none;
+    font-size: 2.3rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  i {
+    font-size: 2.3rem;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 23.6%;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 23.6%;
+  }
+}
+
+@media (max-width: 520px) {
+  .calculator-img-div {
+    height: 310px;
+  }
+
+  .calculator-main-div {
+    height: 310px;
+  }
+
+  button {
+    background-color: #FAFDD6;
+    border: none;
+    font-size: 2.2rem;
+    font-family: 'Dancing Script', cursive;
+  }
+
+  i {
+    font-size: 2.2rem;
+  }
+
+  .clear,
+  .backspace,
+  .percentage,
+  .divide,
+  .multiply,
+  .subtract,
+  .addition,
+  .is-equals-to {
+    width: 23.5%;
+  }
+
+  .num-1,
+  .num-2,
+  .num-3,
+  .num-4,
+  .num-5,
+  .num-6,
+  .num-7,
+  .num-8,
+  .num-9,
+  .dot {
+    width: 23.5%;
+  }
+}
