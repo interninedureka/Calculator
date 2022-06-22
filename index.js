@@ -1,3 +1,5 @@
+// jshint esversion:6
+
 let output = document.getElementById("display");
 
 // Clear
